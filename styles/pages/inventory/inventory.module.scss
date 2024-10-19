@@ -1,0 +1,19 @@
+.inventoryWrapper {
+    width: 100%;
+    padding: 40px;
+    height: 100vh;
+    overflow: hidden;
+
+
+    .cardsSection {
+        margin-bottom: 30px;
+    }
+
+    .tableSection {
+        width: 100%;
+        background: #fff;
+        padding: 24px;
+        border-radius: 15px;
+        height: calc(100vh - 43.5vh);
+    }
+}

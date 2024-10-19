@@ -1,0 +1,111 @@
+.cardMain {
+    background-color: #fff;
+    width: 215px;
+    min-height: 263px;
+    border-radius: 15px;
+    padding: 16px 20px;
+
+    .cardHeader {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 8px;
+    }
+
+    .cardInfo {
+        margin-bottom: 16px;
+
+        p {
+            margin-bottom: 8px;
+        }
+
+        h3.productName {
+            color: #008080;
+            text-overflow: ellipsis;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 100%;
+            text-transform: capitalize;
+            margin-bottom: 8px;
+        }
+
+        p.scientificName {
+            color: #323232;
+            text-overflow: ellipsis;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 100%;
+            text-transform: capitalize;
+        }
+
+        p.vendorName {
+            overflow: hidden;
+            color: #323232;
+            text-overflow: ellipsis;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 100%;
+            text-transform: capitalize;
+        }
+    }
+
+    .availableStock {
+
+        .sectionName {
+            color: #008080;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 100%;
+            text-transform: capitalize;
+            margin-bottom: 8px;
+        }
+
+        ul.stockList {
+            li {
+                display: inline-block;
+                color: #323232;
+                font-size: 10px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 100%;
+                text-transform: capitalize;
+
+                &::after {
+                    content: "|";
+                    margin: 0px 5px;
+                }
+
+                &:last-child {
+                    &::after {
+                        display: none;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .cardCTA {
+
+        .selectType {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+
+        /* Chrome, Safari, Edge, Opera */
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+    }
+
+}

@@ -1,0 +1,80 @@
+.listWrapper {
+    padding: 0px 16px 0px 16px;
+
+    .listItem {
+        border-bottom: 1px solid #E2E1E2;
+        padding: 16px 0px;
+
+        p {
+            margin-bottom: 0px;
+        }
+
+        .icon {
+            margin-bottom: 8px;
+        }
+
+        .name {
+            color: #008080;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 100%;
+            text-transform: capitalize;
+            margin-bottom: 8px;
+
+            span {
+                color: #323232;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 100%;
+                /* 14px */
+                text-transform: capitalize;
+            }
+        }
+
+        .vendor {
+            color: #323232;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 100%;
+            text-transform: capitalize;
+            margin-bottom: 8px;
+        }
+
+        .badgesWrapper{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 10px;
+
+            
+            .numberStrips {
+                padding: 8px;
+                border-radius: 6px;
+                background: #E7F4F6;
+                color: #0F8FA8;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 100%;
+                text-transform: capitalize;
+    
+            }
+            .numberTablets {
+                padding: 8px;
+                border-radius: 6px;
+                background: #F1F8EA;
+                color: #77B52B;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 100%;
+                text-transform: capitalize;
+    
+            }
+        }
+
+    }
+}

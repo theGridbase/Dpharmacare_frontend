@@ -1,0 +1,61 @@
+form {
+
+    .cardFormDynamic {
+        margin-bottom: 20px;
+        padding: 10px 20px;
+        border-bottom: 1px solid #008080;
+        position: relative;
+        .label {
+            color: #323232;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 22px;
+
+            // styling the required sterik
+            .required {
+                color: #008080;
+            }
+
+            //ends sterik style here
+        }
+
+        .remmoveBtn {
+            position: absolute;
+            top: 0%;
+            right: 0%;
+            
+        }
+    }
+
+    .addMoreBtn {
+        border: none !important;
+        box-shadow: none !important;
+        text-transform: capitalize;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0px !important;
+    }
+
+    .submitBtn {
+        position: sticky;
+        bottom: 0px;
+        width: 100%;
+        background-color: #fff;
+        padding: 20px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        button {
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 100%;
+            text-transform: capitalize;
+        }
+
+    }
+}

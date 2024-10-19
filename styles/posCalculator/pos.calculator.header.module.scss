@@ -1,0 +1,60 @@
+.sectionheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+
+    .info {
+        p {
+            margin-bottom: 8px;
+        }
+
+        p.first {
+            color: #323232;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 100%;
+        }
+
+        p.second {
+            color: #008080;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 100%;
+            margin-bottom: 0px;
+        }
+    }
+
+    .showSum {
+        width: 158px;
+        min-height: 56px;
+        background-color: rgba($color: #0B9E5B, $alpha: 0.05);
+        border-radius: 10px;
+        padding: 18px 20px;
+        
+
+        p {
+            color: #0B9E5B;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 100%;
+            margin-bottom: 0px;
+            text-align: center;
+
+            span {
+                color: #323232;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 100%;
+                margin-left: 6px;
+            }
+        }
+
+
+
+    }
+}

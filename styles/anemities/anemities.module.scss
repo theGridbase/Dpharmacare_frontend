@@ -1,0 +1,30 @@
+// Loader
+.loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+// overflow with scroll bar
+.overflowScroll {
+    overflow-y: scroll;
+
+
+    &::-webkit-scrollbar {
+        // for chrome hide scroll bar
+        width: 5px;
+    }
+
+    &::-webkit-scrollbar-track {
+        box-shadow: none;
+        background-color: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #F0F7F7;
+        outline: 1px solid #F0F7F7;
+        border-radius: 10px;
+    }
+}
+

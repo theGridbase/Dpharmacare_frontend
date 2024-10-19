@@ -1,0 +1,164 @@
+.holderWrapper {
+    padding: 0px;
+
+
+    .pageTitle {
+        color: #323232;
+        text-align: center;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.32px;
+        text-align: center;
+        margin-bottom: 14px;
+    }
+
+    .pageDescription {
+        color: #323232;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 48px;
+        opacity: 0.5;
+    }
+
+    form {
+
+        .label {
+            color: #323232;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 22px;
+
+            // styling the required sterik
+            .required {
+                color: #008080;
+            }
+
+            //ends sterik style here
+        }
+
+        .rememberSection {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 41px;
+
+            .checkboxRenderer {
+                margin-bottom: 0px !important;
+
+                .checkkbox {
+                    color: #323232;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: normal;
+                    letter-spacing: 0.14px;
+                }
+            }
+
+            .forgotLink {
+                color: #008080;
+                text-align: right;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                letter-spacing: 0.14px;
+                text-decoration: none;
+                text-transform: capitalize;
+            }
+        }
+
+        .formDescription {
+            color: #323232;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 140%;
+            letter-spacing: 0.14px;
+            margin-bottom: 24px;
+
+            a {
+                color: #026451;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 140%;
+                letter-spacing: 0.14px;
+                text-decoration-line: underline;
+            }
+        }
+
+        .otpInput {
+            width: 72px !important;
+            height: 72px !important;
+            border-radius: 5px;
+            outline: none;
+            border: 1px solid #008080;
+
+            &:focus {
+                box-shadow: 0 0 2px #008080;
+            }
+
+        }
+
+        .resendCode {
+            color: #323232;
+            text-align: right;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 0.14px;
+            margin-bottom: 0px;
+
+            span {
+                color: #008080;
+                font-weight: 600;
+                cursor: pointer;
+            }
+        }
+
+        .submitBtn {
+            width: 100%;
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 16px;
+            letter-spacing: 0.16px;
+        }
+
+        .spaceBottom {
+            margin-bottom: 25px;
+        }
+
+        .centerAnyThing {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .anchorLink {
+            color: #008080;
+            text-align: center;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 0.14px;
+            text-decoration: none;
+            width: fit-content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.datetimeMain {
+    background: rgba($color: #008080, $alpha: 0.05);
+    width: 184px;
+    margin: 0 auto;
+    padding: 13px 0px;
+    border-radius: 15px;
+    margin-bottom: 56px;
+
+    p {
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+
+    .date {
+        color: #323232;
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 100%;
+        margin-bottom: 8px;
+    }
+
+    .time {
+        color: #008080;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%;
+    }
+}

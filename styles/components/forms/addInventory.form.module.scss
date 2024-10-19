@@ -1,0 +1,43 @@
+.addinventoryFormContainer {
+    .sectionName {
+        color: #323232;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        margin-bottom: 16px;
+    }
+
+    .sectionHeading {
+        color: #008080;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        margin-bottom: 24px;
+    }
+
+
+
+    .submitBtn {
+        position: sticky;
+        bottom: 0px;
+        width: 100%;
+        background-color: #fff;
+        padding: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 120;
+
+        .clearBillBtn {
+            border: 1px solid #008080;
+            color: #008080;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 100%;
+            text-transform: capitalize;
+        }
+    }
+}

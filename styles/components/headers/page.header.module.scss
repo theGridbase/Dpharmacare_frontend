@@ -1,0 +1,70 @@
+.insightsHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 40px;
+
+    .pageInfo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        gap: 16px;
+
+        h1.pageName {
+            margin-bottom: 0px;
+            color: #24282C;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 100%;
+            letter-spacing: -0.14px;
+            border-right: 1px solid #323232;
+            padding-right: 16px;
+        }
+
+        p.userName {
+            margin-bottom: 0px;
+            color: #323232;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 100%;
+            text-transform: capitalize;
+            cursor: pointer;
+        }
+    }
+
+    .actions {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+
+        .filterBtn {
+            background-color: #fff;
+            padding: 0px 14px;
+            min-height: 40px;
+            border-radius: 8px;
+        }
+
+        .addBtn {
+            background: transparent;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+
+            span {
+                color: #323232;
+                text-overflow: ellipsis;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 100%;
+                text-transform: capitalize;
+            }
+        }
+    }
+}

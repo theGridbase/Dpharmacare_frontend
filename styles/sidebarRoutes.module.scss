@@ -1,0 +1,69 @@
+.sidebarSection {
+    height: 100%;
+    overflow: hidden;
+
+    .navWrapper {
+        padding: 0px 0px 0px 16px;
+        height: calc(100% - 30%);
+        position: relative;
+        .active {
+            background-color: #F0F7F7;
+            position: relative;
+
+            &::after{
+                content: "";
+                width: 6px;
+                height: 100%;
+                position: absolute;
+                right: 0px;
+                background-color: #008080;
+                border-radius: 5px 0px 0px 5px;
+            }
+        }
+
+        .navItem {
+            text-decoration: none !important;
+            width: 100%;
+            min-height: 70px;
+            padding: 16px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: row;
+            gap: 16px;
+            border-radius: 15px 0px 0px 15px;
+            cursor: pointer;
+            .right {
+                flex: 1;
+
+                p {
+                    margin-bottom: 0px;
+                }
+
+                .navGroup {
+                    color: #323232;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 100%;
+                    margin-bottom: 8px;
+                }
+
+                .navGroupName {
+                    color: #008080;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 100%;
+                }
+            }
+        }
+
+        .stickyBottom{
+            // position: sticky;
+            // bottom: 0px;
+            position: absolute;
+            bottom: 10px;
+        }
+    }
+}

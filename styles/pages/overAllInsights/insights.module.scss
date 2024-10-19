@@ -1,0 +1,17 @@
+.insightsWrapper {
+  width: 100%;
+  padding: 40px 0px 40px 40px;
+  height: 100vh;
+
+  .cardsSection {
+    margin-bottom: 30px;
+  }
+
+  .tableSection {
+    width: 100%;
+    background: #fff;
+    padding: 24px;
+    border-radius: 15px;
+    height: calc(100vh - 43.5vh);
+  }
+}

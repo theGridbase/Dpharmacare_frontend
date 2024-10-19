@@ -1,0 +1,55 @@
+.analyticCardWrapper {
+    background-color: #fff;
+    width: 100%;
+    min-height: 128px;
+    padding: 24px;
+    border-radius: 15px;
+    position: relative;
+
+    .infoIcon {
+        position: absolute;
+        top: 24px;
+        right: 24px;
+
+    }
+
+    .cardTitleSection {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 30px;
+
+        p.cardTitle {
+            color: #323232;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 100%;
+            margin-left: 10px;
+            margin-bottom: 0px;
+            text-transform: capitalize;
+        }
+    }
+
+    .cardData {
+        p {
+            color: #323232;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 100%;
+            margin-bottom: 0px;
+
+            span.unit {
+                color: #008080;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 100%;
+                margin-left: 6px;
+            }
+        }
+    }
+}

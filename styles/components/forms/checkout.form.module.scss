@@ -1,0 +1,133 @@
+.stepsHolder {
+    margin-bottom: 48px;
+}
+
+.stepsContentHolder {
+    border: 1pox solid green;
+}
+
+
+.stepOneForm {
+    .submitBtnHolder {
+        position: absolute;
+        bottom: 24px;
+        right: 24px;
+    }
+}
+
+
+.stepTwoForm {
+
+    .submitBtnHolder {
+        position: absolute;
+        bottom: 24px;
+        right: 24px;
+    }
+
+    .purchaseSection {
+
+        .sectionHead {
+            color: #323232;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 30px;
+        }
+
+        .table {
+            width: 100%;
+
+            th {
+                padding-bottom: 10px;
+            }
+
+            td {
+                vertical-align: top;
+                padding-bottom: 10px;
+            }
+
+            thead {
+                th {
+                    color: #696677;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 100%;
+                    text-transform: capitalize;
+                    opacity: 0.5;
+                }
+            }
+
+            tbody {
+                border-bottom: 1px solid #E2E1E2;
+            }
+
+            tfoot {
+                padding: 21px;
+            }
+        }
+
+    }
+}
+
+.stepThreeForm {
+
+    .totalBillSection {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 33px;
+        .heading {
+            margin-bottom: 0px;
+            color: #323232;
+            text-overflow: ellipsis;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 100%;
+            text-transform: capitalize;
+        }
+
+        .displayerAMount {
+            width: 158px;
+            min-height: 56px;
+            background-color: rgba($color: #0B9E5B, $alpha: 0.05);
+            border-radius: 10px;
+            padding: 18px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            p {
+                margin-bottom: 0px;
+                color: #0B9E5B;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 100%;
+
+                span {
+                    color: #323232;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 100%;
+                }
+            }
+
+        }
+    }
+
+    form{
+        .submitBtnHolder{
+            position: absolute;
+            bottom: 24px;
+            right: 24px;
+        }
+    }
+}

@@ -1,0 +1,122 @@
+.purchaseWrapper {
+    .orderSection {
+        .headingOrder {
+            color: #323232;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 100%;
+            margin-bottom: 16px;
+        }
+
+        .orderNo {
+            color: #008080;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 100%;
+            margin-bottom: 32px;
+        }
+
+        .listDetail {
+            width: 100%;
+            // columns: 2;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            // gap: 16px;
+            list-style: none;
+            padding: 0;
+
+            .listItem {
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 100%;
+                text-transform: capitalize;
+                margin-bottom: 24px;
+
+                .faded {
+                    color: #696677;
+                    margin-bottom: 16px;
+                    opacity: 0.5;
+                }
+
+                .bold {
+                    color: #2B263F;
+                }
+
+                &:nth-last-child(-n + 2) {
+                    /* Target the last two .listItem elements */
+                    margin-bottom: 0;
+                }
+
+            }
+        }
+    }
+
+    .purchaseSection {
+
+        .sectionHead {
+            color: #323232;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 30px;
+        }
+
+        .table {
+            width: 100%;
+
+            th {
+                padding-bottom: 10px;
+            }
+
+            td {
+                vertical-align: top;
+                padding-bottom: 10px;
+            }
+
+            thead {
+                th {
+                    color: #696677;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 100%;
+                    text-transform: capitalize;
+                    opacity: 0.5;
+                }
+            }
+        }
+
+    }
+
+    .btnHolder {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #fff;
+        position: sticky;
+        bottom: 0px;
+        width: 100%;
+        padding: 20px;
+
+        button {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 100%;
+            text-transform: capitalize;
+        }
+
+        button.printBtn {
+            color: #008080;
+            border: 1px solid #008080;
+        }
+    }
+}

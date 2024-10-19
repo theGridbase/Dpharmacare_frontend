@@ -1,0 +1,32 @@
+.comapnyProfileWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 48px;
+
+    .right {
+        p {
+            margin-bottom: 0px;
+        }
+
+        .firmName {
+            color: #323232;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 100%;
+            margin-bottom: 8px;
+        }
+
+        .tagLine {
+            color: #313131;
+            font-size: 8px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}
